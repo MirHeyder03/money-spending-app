@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+html {
+  background-color: rgb(30, 33, 34);
+  font-family: Roboto, sans-serif;
+  user-select: none;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
+}
+.header {
+  margin-top: 50px;
+  background-image: initial;
+  background-color: rgb(24, 26, 27);
+}
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.title img {
+  margin-top: 20px;
+  user-select: none;
+  width: 130px;
+  height: 115px;
+  border-radius: 50%;
+}
+.title p {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+}
+.money {
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(232, 230, 227);
+  background-image: linear-gradient(rgb(37, 163, 90), rgb(21, 150, 125));
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.item-img {
+  display: block;
+  margin: 15px auto;
+  height: 120px;
+  max-width: 100%;
+  object-fit: contain;
+  user-select: none;
+}
+.item-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+.item-cost {
+  color: #24c486;
+}
+.item-controls {
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 25px;
+}
+.item-wrapper {
+  max-width: 100%;
+  background-color: rgb(24, 26, 27);
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+.item-input {
+  border-radius: 3px;
+  border: 1px solid #b2bec3;
+  color: #333;
+  width: 100%;
+}
+.item-input,
+button {
+  font-size: 16px;
+  text-align: center;
+}
+.item-sell {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  user-select: none;
+  background: linear-gradient(180deg, #f53b82, #f53b57);
+}
+.item-buy {
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
 }
