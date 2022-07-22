@@ -12,6 +12,7 @@ const App = () => {
     getProducts();
   },[])
   
+  
   const getProducts=()=>{
     fetch("http://localhost:3000/products")
     .then(response=>response.json())
