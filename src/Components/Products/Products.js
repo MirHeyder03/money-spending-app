@@ -1,19 +1,10 @@
 import React from 'react'
 import Product from './Product'
 
-function Products() {
+function Products(props) {
   return (
     <>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
+        <Product products={props.products}/>
     </>
   )
 }
