@@ -1,70 +1,68 @@
-{
-    "products":[
-    {
-        "id":1,
-        "title":"Book",
-        "price":"$15",
-        "url":"/imgs/book.jpg"
-    },
-    {
-        "id":2,
-        "title":"Gaming Console",
-        "price":"$299",
-        "url":"/imgs/gaming-console.jpg"
-    },
-    {
-        "id":3,
-        "title":"Horse",
-        "price":"$2,500",
-        "url":"/imgs/horse.jpg"
-    },
-    {
-        "id":4,
-        "title":"Rolex",
-        "price":"$15,000",
-        "url":"/imgs/rolex.jpg"
-    },
-    {
-        "id":5,
-        "title":"Single Family Home",
-        "price":"$300,000",
-        "url":"/imgs/single-family-home.jpg"
-    },
-    {
-        "id":6,
-        "title":"Mona Lisa",
-        "price":"$780,000,000",
-        "url":"/imgs/mona-lisa.jpg"
-    },
-    {
-        "id":8,
-        "title":"Boeing 747",
-        "price":"$148,000,000",
-        "url":"/imgs/boeing-747.jpg"
-    },
-    {
-        "id":9,
-        "title":"Formula 1 Car",
-        "price":"$15,000,000",
-        "url":"/imgs/formula.jpg"
-    },
-    {
-        "id":10,
-        "title":"Ferrari",
-        "price":"$250,000",
-        "url":"/imgs/ferrari.jpg"
-    },
-    {
-        "id":11,
-        "title":"Ford",
-        "price":"$30,000",
-        "url":"/imgs/ford.jpg"
-    },
-    {
-        "id":12,
-        "title":"Diamond Ring",
-        "price":"$10,000",
-        "url":"/imgs/diamond-ring.jpg"
-    }
+[
+  {
+    "id": 1,
+    "title": "Book",
+    "price": 15,
+    "url": "/imgs/book.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Gaming Console",
+    "price": 299,
+    "url": "/imgs/gaming-console.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Horse",
+    "price": 2500,
+    "url": "/imgs/horse.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Rolex",
+    "price": 15000,
+    "url": "/imgs/rolex.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Single Family Home",
+    "price": 300000,
+    "url": "/imgs/single-family-home.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mona Lisa",
+    "price": 780000000,
+    "url": "/imgs/mona-lisa.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Boeing 747",
+    "price": 148000000,
+    "url": "/imgs/boeing-747.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Formula 1 Car",
+    "price": 15000000,
+    "url": "/imgs/formula.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Ferrari",
+    "price": 250000,
+    "url": "/imgs/ferrari.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Ford",
+    "price": 30000,
+    "url": "/imgs/ford.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Diamond Ring",
+    "price": 10000,
+    "url": "/imgs/diamond-ring.jpg"
+  }
 ]
-}

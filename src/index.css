@@ -42,8 +42,15 @@ html {
   margin-bottom: 10px;
   font-weight: 700;
   text-align: center;
-  color: rgb(232, 230, 227);
   background-image: linear-gradient(rgb(37, 163, 90), rgb(21, 150, 125));
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.money p{
+  color: black;
+  font-weight: bold;
 }
 .items {
   display: grid;
@@ -103,4 +110,17 @@ button {
 }
 .item-buy {
   background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  cursor: pointer;
+}
+.reset{
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  user-select: none;
+  background:  black;
+  cursor: pointer;
+  border-radius: 15px;
 }

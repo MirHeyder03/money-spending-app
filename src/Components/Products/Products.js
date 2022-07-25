@@ -1,12 +1,22 @@
-import React from 'react'
-import Product from './Product'
+import React from "react";
+import Product from "./Product";
 
-function Products(props) {
+function Products({ basket, setBasket, products, money, total }) {
   return (
     <>
-        <Product products={props.products}/>
+      {products.map((product) => (
+        <Product
+          key={product.id}
+          basket={basket}
+          setBasket={setBasket}
+          products={products}
+          product={product}
+          money={money}
+          total={total}
+        />
+      ))}
     </>
-  )
+  );
 }
 
-export default Products
+export default Products;

@@ -1,6 +1,10 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({money,total,setMoney,setBasket}) => {
+  const reset=()=>{
+    setMoney(234000000000)
+    setBasket([]);
+  }
   return (
     <div className="header">
       <div className="title">
@@ -9,7 +13,8 @@ const Header = () => {
       </div>
       <div>
         <div className="money">
-          <p>$234,000,000,000</p>
+          <p>$ {(money-total)}</p>
+          <button onClick={reset} className="reset">reset</button>
         </div>
       </div>
     </div>
