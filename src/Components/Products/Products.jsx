@@ -1,6 +1,5 @@
 import React from "react";
 import Product from "./Product";
-
 function Products({ basket, setBasket, products, money, total }) {
   return (
     <>
@@ -18,5 +17,4 @@ function Products({ basket, setBasket, products, money, total }) {
     </>
   );
 }
-
 export default Products;
